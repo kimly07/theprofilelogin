@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(/images/pubg-mobile-koenigsegg-2021-games-5k-5120x2880-6854.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    border-radius: 15px;
+    background: transparent;
+    width: 420px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, 0.322);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.wrapper h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 1.8px 1px 3px #0000005d;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 29px 0px;
+}
+.input-box input{
+    margin-left: 10px;
+    width: 95%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(225, 225, 225, 0.541);
+    border-radius: 20px;
+    padding: 20px 20px 20px;
+    
+}
+.input-box input::placeholder {
+    color: #fff;
+
+}
+.wrapper box-icon{
+    border: solid black;
+    position: fixed;
+    right: 26%;
+}
+.wrapper .remember-forgot{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot a{
+    color: white;
+    margin-right:10px;
+    text-decoration: none;
+}
+.remember-forgot input{
+    margin-left: 10px;
+}
+.remember-forgot a:hover{
+
+    text-decoration: underline;
+}
+.wrapper .register-link{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.wrapper .btn{
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    width: 98%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;   
+    cursor: pointer;
+    font-weight: 400;
+}
+.remember-forgot a{
+    margin-bottom: 10px;
+}
+.register-link p a{
+    color: white;
+}
+.register-link p:hover{
+    text-decoration: underline;
+}
+.under-thing{
+    margin-bottom: 5px;
+}
